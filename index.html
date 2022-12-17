@@ -1,45 +1,126 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maud Mainnemard Portfolio</title>
 </head>
 
+<!--CSS Styles -->
+<link rel="stylesheet" href="assets/style.css" />
+
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
+    <!-- Navbar -->
     <nav>
+        <img src="../maudmain-portfolio/assets/images/icons8-customer-64 (1).png" alt="Avatar" class="avatar">
+        <h1>Maud Mainnemard</h1>
+        <ul class="navigation">
+            <li><a href="#about-me" class="nav-link">About me</a></li>
+            <li><a href="#my-work" class="nav-link">Projects</a></li>
+            <li><a href="#contact-me" class="nav-link">Contact me</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <!-- Hero Section -->
+    <section id="hero-grid">
+        <div id="background-hero" class="hero-grid-area"></div>
+         <div class="quote">
+            <h2 class="quote-title">John Johnson once said:</h2>
+            <p class="quote-text">
+                “First, solve the problem. Then, write the code.”
+            </p>
+        </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <!-- About me -->
+    <section id="about-me" class="about-me">
+        <div class="title">
+            <h2>About Me</h2>
+        </div>
+
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus.
+                Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa
+                lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet
+                sollicitudin. 
+                <br><br>
+                Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc
+                vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis.
+                Etiam eros orci, dictum sed risus in, iaculis eleifend diam.
+            </p>
+        </div>
     </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <!-- Projects section -->
+    <section id="my-work" class="my-work">
+        <div class="title">
+            <h2>My Work</h2>
+        </div>
+        <!--Grid cards to add as the bootcamp goes-->
+        <div class="projects-grid-container">
+            <div class="projects-grid">
+                <!--Card 1 link to git hub repo-->
+                <a href="https://maudmain.github.io/02-mini-project/" target="_blank" class="project-one">
+                    <div class="project-label">
+                        <h3>CSS Snippet Cheat Sheet</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </a>
+                <!--Card 2 link to git hub repo-->
+                <a href="https://maudmain.github.io/01-mini-project/" target="_blank" class="project-two">
+                    <div class="project-label">
+                        <h3>Cat Lawyer Services Landing Page</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </a>
+                <!--Card 3 link to git hub repo-->
+                <a href="" target="_blank"
+                    class="project-three">
+                    <div class="project-label">
+                        <h3>Project three</h3>
+                        <p>TBC</p>
+                    </div>
+                </a>
+                <!--Card 4-->
+                <a href="" target="_blank" class="project-four">
+                    <div class="project-label">
+                        <h3>Project four</h3>
+                        <p>TBC</p>
+                    </div>
+                </a>
+                <!--Card 5-->
+                <a href="#" target="_blank" class="project-five">
+                    <div class="project-label">
+                        <h3>Project five</h3>
+                        <p> TBC</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
-  </main>
-</body>
 
-</html>
+    <!-- Contact section -->
+    <footer id="contact-me">
+        <div class="title">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="content-wrapper">
+            <div id="contact-list">
+                <ul>
+                    <li>
+                        <a href="mailto:117314424+maudmain@users.noreply.github.com">Email</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/maudmain" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/maud-mainnemard-56a34082/" target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer section -->
