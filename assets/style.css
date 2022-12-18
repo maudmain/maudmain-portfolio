@@ -322,6 +322,7 @@ footer ul li a:hover {
     .about-me div {
         max-width: 100%;
         width: 100%;
+        
 
     }
     .my-work div {
@@ -338,5 +339,9 @@ footer ul li a:hover {
     .quote {
         position: static;
         margin: 20px;
+    }
+    div.title{
+        text-align: left;
+
     }
     }
