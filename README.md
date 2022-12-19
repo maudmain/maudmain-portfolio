@@ -47,25 +47,27 @@ In the "About Me" there is a brief description.
 The "My Work" section shows a few pojects I have worked on. Click on the image to open the deployed project page.
 The "Contact Me" section show a few ways to get in touch with me.
 
-![Deployed Page Screenshot](../maudmain-portfolio/assets/images/Screenshot%20-%20Maud%20Mainnemard%20Portfolio%20-.png)
+![Deployed Page Screenshot][def]
 
 [Link to deplayed landing page](https://maudmain.github.io/maudmain-portfolio/)
 
 
 ## Credits
 
-Photos credit:
+Photos and content credit:
 
-edX Bootcamp: for starter code, tutorial and ressources.
+- edX Bootcamp: for starter code, tutorial and ressources.
 
-Photo by Ibrahim Abazid on Unsplash
-Photo by charlesdeluvio on Unsplash
-Photo by Jean Louis Paulin on Unsplash
-Photo by Hello-i-m-nik on on Unsplash
-Portrait by Maud Mainnemard
+- Photo by Ibrahim Abazid on Unsplash
+- Photo by charlesdeluvio on Unsplash
+- Photo by Jean Louis Paulin on Unsplash
+- Photo by Hello-i-m-nik on on Unsplash
+- Portrait by Maud Mainnemard
 
-avatar credit: https://icons8.com/icons/set/avatar
+- avatar credit: https://icons8.com/icons/set/avatar
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[def]: ../maudmain-portfolio/assets/images/Screenshot%20-%20Maud%20Mainnemard%20Portfolio%20-.png
