@@ -271,7 +271,6 @@ min-height: 100px;
 
 .project-label {
     background-color: var(--border-color);
-    opacity: 0.8;
     color: var(--primary);
     padding: 10px;
     justify-content: flex-end;
