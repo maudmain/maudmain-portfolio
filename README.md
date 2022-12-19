@@ -47,9 +47,9 @@ In the "About Me" there is a brief description.
 The "My Work" section shows a few pojects I have worked on. Click on the image to open the deployed project page.
 The "Contact Me" section show a few ways to get in touch with me.
 
-![Alt text](../maudmain-portfolio/assets/images/Screenshot%20-%20Maud%20Mainnemard%20Portfolio%20-.png "Deployed Page Screenshot")
+![Deployed Page Screenshot](../maudmain-portfolio/assets/images/Screenshot%20-%20Maud%20Mainnemard%20Portfolio%20-.png)
 
-[Link to deplayed landing page]()
+[Link to deplayed landing page](https://maudmain.github.io/maudmain-portfolio/)
 
 
 ## Credits
