@@ -41,12 +41,22 @@ You are required to submit BOTH of the following for review:
 - The URL of the deployed application.
 - The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
+## Usage
+With the navigation bar at the top you can view the "about me", "my work" and "contact me information.
+In the "About Me" there is a brief description.
+The "My Work" section shows a few pojects I have worked on. Click on the image to open the deployed project page.
+The "Contact Me" section show a few ways to get in touch with me.
+
+![Alt text](../maudmain-portfolio/assets/images/Screenshot%20-%20Maud%20Mainnemard%20Portfolio%20-.png "Deployed Page Screenshot")
+
+[Link to deplayed landing page]()
+
 
 ## Credits
 
 Photos credit:
 
-edX Bootcamp
+edX Bootcamp: for starter code, tutorial and ressources.
 
 Photo by Ibrahim Abazid on Unsplash
 Photo by charlesdeluvio on Unsplash
