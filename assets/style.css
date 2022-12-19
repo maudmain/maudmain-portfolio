@@ -1,15 +1,11 @@
 :root {
     --font-family: Arial, Helvetica, sans-serif;
-    --normal-font: 400;
     --bold-font: 700;
-    --bolder-font: 900;
     --bg-color: black;
     --primary-color: white;
     --secondary-color: grey;
     --border-color: #FF6200;
     --bottom-margin: 0.5rem;
-    --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
     --transition: 0.3s;
 }
 
@@ -33,7 +29,7 @@ a:hover {
     color: var(--secondary-color);
 }
 
-.project:hover  {
+.project:hover {
     opacity: 0.5;
 }
 
@@ -53,7 +49,6 @@ nav {
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
     flex-wrap: wrap;
-
 }
 
 .avatar {
@@ -64,14 +59,11 @@ nav {
 
 nav h1 {
     color: var(--primary-color);
-
-
 }
 
 nav a {
     color: var(--primary-color);
     transition: var(--transition);
-
 }
 
 nav a:hover {
@@ -94,7 +86,6 @@ nav ul {
 
 nav ul li {
     font-weight: var(--bold-font);
-
 }
 
 /*Hero Grid*/
@@ -108,13 +99,11 @@ nav ul li {
     grid-template-columns: 100%;
     grid-template-areas:
         "background-hero";
-
 }
 
 #background-hero {
     grid-area: background-hero;
     background-image: url("../assets/images/02-hero-bg.jpg");
-
 }
 
 .quote {
@@ -127,7 +116,6 @@ nav ul li {
     padding: 25px;
     max-width: 100%;
     max-height: 100%;
-
 }
 
 .hero-grid-area {
@@ -171,7 +159,7 @@ nav ul li {
 .about-me {
     display: flex;
     justify-content: space-between;
-    align-items:normal;
+    align-items: normal;
     padding-top: 30px;
     flex-wrap: wrap;
 }
@@ -192,7 +180,6 @@ nav ul li {
     width: 100%;
     text-align: justify;
     text-justify: inter-word;
-
 }
 
 /* my work section styling start */
@@ -221,10 +208,8 @@ nav ul li {
     grid-template-areas:
         "project-one project-one"
         "project-two project-three"
-        "project-four project-five"
-    ;
+        "project-four project-five";
     gap: 10px;
-    
 }
 
 .project {
@@ -236,7 +221,6 @@ nav ul li {
     text-decoration: none;
     background-size: cover;
     background-position: center;
-    
 }
 
 .project-one {
@@ -249,25 +233,23 @@ nav ul li {
 
 .project-two {
     background-image: url("../assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg");
-min-height: 100px;
-
+    min-height: 100px;
 }
 
 .project-three {
     background-image: url("../assets/images/jean-louis-paulin-AeyS2Y5ZNYE-unsplash.jpg");
     min-height: 100px;
-    
 }
 
 .project-four {
     background-image: url("../assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg");
     min-height: 100px;
-    
 }
 
 .project-five {
     background-image: url("../assets/images/jean-louis-paulin-AeyS2Y5ZNYE-unsplash.jpg");
-    min-height: 100px;}
+    min-height: 100px;
+}
 
 .project-label {
     background-color: var(--border-color);
@@ -276,7 +258,6 @@ min-height: 100px;
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
-
 }
 
 /* contact me section styling start */
@@ -313,7 +294,6 @@ footer ul {
 
 footer ul li {
     font-weight: bold;
-
 }
 
 footer ul li a {
@@ -324,7 +304,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    
+
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
 }
@@ -336,28 +316,31 @@ footer ul li a:hover {
 
     .navigation {
         margin-top: 1.1rem;
-        
     }
+
     nav {
         text-align: center;
         justify-content: center;
-        
     }
+
     .avatar {
         position: center;
     }
+
     .about-me div {
         max-width: 100%;
         width: 100%;
-        
-
     }
+
+    .about-me div p {
+        font-size: 14px;
+    }
+
     .my-work div {
         max-width: 100%;
         width: 100%;
-        }
-    
-    
+    }
+
     .contact-me div {
         max-width: 100%;
         width: 100%;
@@ -367,8 +350,9 @@ footer ul li a:hover {
         position: static;
         margin: 20px;
     }
-    div.title{
-        text-align: left;
 
+    div.title {
+        text-align: left;
     }
-    }
+
+}
